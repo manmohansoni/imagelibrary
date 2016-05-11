@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutSave"
+        style="@style/Crop.DoneCancelBar"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:id="@+id/button_done"
+            style="@style/Crop.ActionButton">
+
+            <TextView
+                style="@style/Crop.ActionButtonText.Done"
+                android:paddingRight="10dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/button_crop"
+            style="@style/Crop.ActionButton">
+
+            <TextView
+                style="@style/Crop.ActionButtonText.Crop"
+                android:paddingRight="10dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/button_cancel"
+            style="@style/Crop.ActionButton">
+
+            <TextView
+                style="@style/Crop.ActionButtonText.Cancel"
+                android:paddingRight="10dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layoutSave"
+        android:visibility="visible" />
+
+</RelativeLayout>

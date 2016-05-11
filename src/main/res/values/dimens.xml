@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <!-- Padding for splash drawble-->
+    <dimen name="splash_drawable">50dp</dimen>
+
+    <!-- Height width of the home page items-->
+    <dimen name="item_width">120dp</dimen>
+    <dimen name="item_height">120dp</dimen>
+
+    <!-- Height width of the home page items-->
+    <dimen name="gallery_item_width">150dp</dimen>
+    <dimen name="gallery_item_height">150dp</dimen>
+
+    <!--Crop Bar Height-->
+    <dimen name="crop__bar_height">56dp</dimen>
+
+
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+    <!-- Semantic definitions -->
+
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+</resources>

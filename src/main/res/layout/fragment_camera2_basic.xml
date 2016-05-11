@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mygaadi.imageselectorlibrary.camera2.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/texture">
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_oval_gray_outlined"
+            android:src="@drawable/ic_menu_camera" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutSave"
+        style="@style/Crop.DoneCancelBar"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/button_done"
+            style="@style/Crop.ActionButton">
+
+            <TextView
+                style="@style/Crop.ActionButtonText.Done"
+                android:paddingRight="10dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/button_crop"
+            style="@style/Crop.ActionButton">
+
+            <TextView
+                style="@style/Crop.ActionButtonText.Crop"
+                android:paddingRight="10dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/button_cancel"
+            style="@style/Crop.ActionButton">
+
+            <TextView
+                style="@style/Crop.ActionButtonText.Cancel"
+                android:paddingRight="10dp" />
+        </FrameLayout>
+
+
+        <!--<Button-->
+        <!--android:id="@+id/button_cancel"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:text="Cancel" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/button_crop"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="left"-->
+        <!--android:text="Crop" />-->
+
+    </LinearLayout>
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <ImageView
+        android:id="@+id/image_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layoutSave"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imgSplashDrawable" type="id" />
+    <item name="recyclerViewHomeScreen" type="id" />
+    <item name="txtItemMainHomePage" type="id" />
+    <item name="cardViewHomeScreen" type="id" />
+    <!-- Ids for Image gallery -->
+    <item name="recyclerViewImageGallery" type="id" />
+    <item name="imgGalleryItem" type="id" />
+    <item name="imgFolderIcon" type="id" />
+    <item name="txtGalleryItem" type="id" />
+    <item name="txtCount" type="id" />
+    <!-- End of Ids declaration foe image gallery-->
+</resources>

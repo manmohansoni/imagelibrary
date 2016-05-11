@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue">#b0b6fc</color>
+    <color name="green">#97f7b2</color>
+    <color name="red">#ff8d90</color>
+    <color name="yellow">#f0ff8b</color>
+    <color name="gray">#797979</color>
+    <color name="disabledGray">#949393</color>
+    <color name="light_gray">#c6c1c1</color>
+    <color name="white">#acf4f6f6</color>
+    <color name="layoutStripColor">#bc000000</color>
+    <color name="bg_checkedIcon">#a2000000</color>
+    <color name="bg_checkedIconStorke">#a9000000</color>
+    <color name="whiteOpaque">#AAFFFFFF</color>
+
+
+    <!-- Material design colors-->
+    <color name="primaryColor">#FF5722</color>
+    <color name="primaryColorDark">#E64A19</color>
+    <color name="accentColor">#474647</color>
+    <color name="accentColor1">#009688</color>
+
+    <!--For Crop Library-->
+    <color name="ripple_color">#FF5722</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+
+    <color name="control_background">#cc4285f4</color>
+
+    <!--RSA colors-->
+    <color name="color_approved">#04B404</color>
+    <color name="color_pending">#FFBF00</color>
+
+
+</resources>
